@@ -1,26 +1,26 @@
 # string concatenation
 name = "Blake"
 stringy = "Hello, my name is " + name
-print(stringy)
+# print(stringy)
 
 # variabes and reassinment
 x = "original string"
-print(x)
+# print(x)
 x = "new string"
-print(x)
+# print(x)
 
 # functions, arguments and calling functions
 def funct1(y):
     z = y
     print(z)
-funct1("pass")
+# funct1("pass")
 
 # arrays and accessing items
 arr = [-1, -2, 2, 1]
 arr7 = [7, 7, 7, 7, 7, 7, 7, 0]
-print(arr[sum(arr) - 3])
-print(arr[len(arr) - 1])
-print(arr7[len(arr7) - 1])
+# print(arr[sum(arr) - 3])
+# print(arr[len(arr) - 1])
+# print(arr7[len(arr7) - 1])
 
 #conditional statements
 condition = 1
@@ -33,3 +33,9 @@ elif condition == 2:
 else:
     print("else")
 
+con = "a"
+
+if con == a:
+    print("a")
+else:
+    print("not")
