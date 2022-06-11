@@ -33,9 +33,9 @@ elif condition == 2:
 else:
     print("else")
 
-con = "a"
-
-if con == a:
-    print("a")
-else:
-    print("not")
+#testing data types with conditional statements
+con = 1
+if con == "1":
+    print("string")
+elif con == 1:
+    print("number")
