@@ -3,6 +3,12 @@
 # stringy = "Hello, my name is " + name
 # print(stringy)
 
+#string interpolation
+intrp1 = "I think"
+intrp2 = "I am."
+string_interpolate = "%s, therefore %s" % (intrp1, intrp2)
+print(string_interpolate)
+
 # variabes and reassinment
 # x = "original string"
 # print(x)
@@ -44,10 +50,10 @@
 # print(str(42) + " and a string")
 
 #strings are indexed
-strings_have_indexes = "this has an index"
-print(strings_have_indexes[0])
-print(strings_have_indexes[1])
-print(strings_have_indexes[2])
-print(strings_have_indexes[3])
-print(strings_have_indexes[4])
-print(strings_have_indexes.index("has"))
+# strings_have_indexes = "this has an index"
+# print(strings_have_indexes[0])
+# print(strings_have_indexes[1])
+# print(strings_have_indexes[2])
+# print(strings_have_indexes[3])
+# print(strings_have_indexes[4])
+# print(strings_have_indexes.index("has"))
